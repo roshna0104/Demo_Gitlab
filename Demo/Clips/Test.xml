@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="messageclip" schemaVersion="10065" VCSUid="447b9d65eed19607e455af375bac61eb" name="Test" path="/Demo/Clips">
+    <Body>
+      <MessageClip>
+        <Targets />
+        <UserProperties />
+        <Options dynamicResourceCache="enabled" interItemDelay="0" />
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="10065" name="Transaction1" path="/Demo/Clips/Test" parentType="messageclip" uid="d4b0e15d-89a9-723c-8037-c1a27968f098">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <TransactionStart />
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="10065" name="Transaction2" path="/Demo/Clips/Test" parentType="messageclip" uid="f5b2f4f8-4f67-bd6a-6047-add42159016b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <TransactionStart />
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+</rp:ObjectSet>
