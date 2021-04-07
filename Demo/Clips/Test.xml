@@ -98,4 +98,45 @@
       </Attribute>
     </Attributes>
   </Object>
+  <Object type="clipelement" schemaVersion="10065" name="Transaction3" path="/Demo/Clips/Test" parentType="messageclip" uid="3b7cc7bb-92b7-d9ba-eeed-de6879de4ff3">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        <TransactionStart />
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
 </rp:ObjectSet>
