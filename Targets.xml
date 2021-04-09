@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="folder" schemaVersion="10065" VCSUid="b269623b77a43882e8e08dc9db2a94c0" name="Targets" path="/">
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>
