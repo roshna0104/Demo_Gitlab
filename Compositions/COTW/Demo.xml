@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="composition" schemaVersion="11400" VCSUid="c61da55410c052bf5298f7ac03a0c927" name="Demo" path="/Compositions/COTW">
+    <Body>
+      <Composition xmlns="http://www.soasta.com/services/repository">
+        <Bands>
+          <Band name="Band 1" scope="private" slotCount="1" type="sequenced">
+            <Description />
+          </Band>
+        </Bands>
+        <Tracks>
+          <Track enabled="1" name="Track 1" scope="private">
+            <Bands>
+              <Band name="Band 1">
+                <Clips>
+                  <Clip displayWidth="1" enabled="1" endSlot="0" failure-action="fail" name="COTW" ref="1" scope="private" startSlot="0" />
+                </Clips>
+              </Band>
+            </Bands>
+            <Distributions>
+              <Distribution name="Distribution 1">
+                <Places>
+                  <Place type="AnyServer" />
+                </Places>
+              </Distribution>
+            </Distributions>
+          </Track>
+        </Tracks>
+        <PlaySettings>
+          <PersistResult setting="true" />
+          <SaveAnalysisDetails setting="true" />
+          <SaveAnalysisCompElementDetails setting="true" />
+          <ResultLevels>
+            <Composition level="verbose" />
+            <Band level="verbose" />
+            <Track level="verbose" />
+            <MessageClip level="verbose" />
+            <Chain level="verbose" />
+            <Group level="verbose" />
+            <Burst level="verbose" />
+            <Transaction level="verbose" />
+            <Page level="verbose" />
+            <If level="verbose" />
+            <Switch level="verbose" />
+            <Message level="verbose" />
+            <BrowserAction level="verbose" />
+            <AppAction level="verbose" />
+            <DatabaseAction level="verbose" />
+            <Transition level="verbose" />
+            <Checkpoint level="verbose" />
+            <Delay level="verbose" />
+            <Control level="verbose" />
+            <Target level="verbose" />
+            <Transport level="verbose" />
+            <Validation level="verbose" />
+            <SendMessageWebSocket level="verbose" />
+            <TargetEventHandlerWebSocket level="verbose" />
+            <TargetEventOpenWebSocket level="verbose" />
+            <TargetEventCloseWebSocket level="verbose" />
+            <TargetEventErrorWebSocket level="verbose" />
+            <TargetEventIdleWebSocket level="verbose" />
+            <TargetEventMessageWebSocket level="verbose" />
+            <TargetEventMessageDefaultWebSocket level="verbose" />
+            <EventMessageWebSocket level="verbose" />
+            <OpenWebSocket level="verbose" />
+            <CloseWebSocket level="verbose" />
+            <EventGroup level="verbose" />
+            <LaunchComposition level="verbose" />
+            <Wait level="verbose" />
+          </ResultLevels>
+          <ContainerAnalytics>
+            <MessageClip enabled="true" />
+            <Chain enabled="true" />
+            <Group enabled="true" />
+            <Burst enabled="true" />
+            <Transaction enabled="true" />
+            <Page enabled="true" />
+            <If enabled="true" />
+            <Switch enabled="true" />
+          </ContainerAnalytics>
+          <ForceGC setting="false" />
+          <TrackGC setting="true" />
+          <HaltOnError setting="element-settings" />
+        </PlaySettings>
+        <Monitoring deviceAgentMonitoring="true" />
+      </Composition>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="userData">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="175235" internalID="1" name="COTW" path="/Clips" type="messageclip" />
+      <Reference id="453" internalID="2" name="Result Details Dashboard" path="%System Objects/Dashboards" type="dashboard" />
+    </References>
+  </Object>
+</rp:ObjectSet>

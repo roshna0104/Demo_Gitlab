@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="folder" schemaVersion="11400" VCSUid="484b0bcc8a9e1901851692d72b001773" name="COTW" path="/Grids">
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

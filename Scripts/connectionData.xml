@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="11400" VCSUid="6644a0ac337fbdb98f441201f3e66d32" name="connectionData" path="/Scripts">
+    <Body>
+      <Transition>
+        <Script language="JavaScript">var $time = new Date().getTime();
+
+$context.result.postMessage($context.result.LEVEL_INFO, $time);
+
+var $connectionData = "%5B%7B%22name%22%3A%22studentsession%22%7D%5D&amp;_" + "=" + $time;
+
+$context.result.postMessage($context.result.LEVEL_INFO, $connectionData);
+
+$prop.set("clip" , "connectionData" , $connectionData);
+
+
+
+</Script>
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>
